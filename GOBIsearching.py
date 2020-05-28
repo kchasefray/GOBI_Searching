@@ -203,4 +203,4 @@ ebookoption = ebookoption.drop_duplicates(subset='title', keep='first', inplace=
 newmerge = dfmerge.merge(ebookoption, on='title', sort=False, left_index=False, right_index=True, copy=False, how='outer')
 
 #send to excel file
-newmerge.to_excel(r'C:\\Users\kfrazie2\Documents\Python\Reports\Multiple Holds May Results.xlsx')
+newmerge.to_excel(r'PATH-TO-OUTPUT')
